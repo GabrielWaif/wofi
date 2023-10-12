@@ -1,70 +1,56 @@
 window {
     margin: 0px;
-    border: 5px solid #f5c2e7;
-    background-color: #f5c2e7;
-    border-radius: 15px;
+    background-color: #282828;
+    border-radius: 30px;
+    border: 2px solid #ebdbb2;
 }
 
 #input {
-    padding: 4px;
-    margin: 4px;
-    padding-left: 20px;
+    margin: 5px;
+    background-color: #282828;
+    color: #ebdbb2;
     border: none;
-    color: #fff;
-    font-weight: bold;
-    background-color: #1f1d2e;
-    background: linear-gradient(90deg, rgba(203,166,247,1) 0%, rgba(245,194,231,1) 100%);
-   	outline: none;
-    border-radius: 15px;
-    margin: 10px;
-    margin-bottom: 2px;
+    border-radius: 30px;
 }
-#input:focus {
-    border: 0px solid #1f1d2e;
-    margin-bottom: 0px;
+
+#input:selected {
+    border-color: red;
 }
 
 #inner-box {
-    margin: 4px;
-    border: 10px solid #1f1d2e;
-    color: #cba6f7;
-    font-weight: bold;
-    background-color: #26233a;
-    border-radius: 15px;
+    margin: 5px;
+    border: none;
+    background-color: #282828;
+    border-radius: 30px;
 }
 
 #outer-box {
-    margin: 0px;
+    margin: 15px;
     border: none;
-    border-radius: 15px;
-    background-color: #1f1d2e;
+    background-color: #282828;
 }
 
 #scroll {
-    margin-top: 5px;
+    margin: 0px;
     border: none;
-    border-radius: 15px;
-    margin-bottom: 5px;
-    /* background: rgb(255,255,255); */
 }
 
-#text:selected {
-    color: #fff;
-    margin: 0px 0px;
+#text {
+    margin: 5px;
     border: none;
-    border-radius: 15px;
-}
-
-#entry {
-    margin: 0px 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: transparent;
-}
+    color: #ebdbb2;
+} 
 
 #entry:selected {
-    margin: 0px 0px;
-    border: none;
-    border-radius: 15px;
-    background: linear-gradient(45deg, rgba(203,166,247,1) 30%, rgba(245,194,231,1) 100%);
+    color: #d79921;
+    background-color: #282828;
+    border-radius: 20px;
+    outline: none;
+}
+
+#entry:selected * {
+    color: #d79921;
+    background-color: #282828;
+    border-radius: 20px;
+    outline: none;
 }
